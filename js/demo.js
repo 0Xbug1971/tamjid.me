@@ -26,3 +26,9 @@ $(document).ready(function() {
   });
 });
 */
+
+document.addEventListener('DOMContentLoaded', function () {
+      element.insertBefore(canvas, element.firstChild);
+      ctx = canvas.getContext('2d');
+      styleCanvas();
+}
